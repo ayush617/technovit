@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html >
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>  
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="images/favicon.png" />
+<title>TechnoVIT</title>
+<link rel="stylesheet" href="css/neon.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/main.style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style.loader.css" type="text/css" media="all" />
+<script src="js/prefix.js"></script>
+<script src="js/script.jquery.js"></script>
+<script src="js/script.home.js"></script>
+<script src="js/scroll.js"></script>
+<script type="text/javascript" language="JavaScript">
+function set_body_height()
+{
+    var wh = $(window).height();
+    $('body').attr('style', 'height:' + wh + 'px;');
+}
+$(document).ready(function() {
+    set_body_height();
+    $(window).bind('resize', function() { set_body_height(); });
+});
+function set_body_width()
+{
+    var wh = $(window).width();
+    $('body').attr('style', 'width:' + wh + 'px;');
+}
+$(document).ready(function() {
+    set_body_width();
+    $(window).bind('resize', function() { set_body_width(); });
+  });
+</script>
+</head>
+<body >
+    <!-- LOADER  style.loader.css -->
+    <div id="loader-wrapper">
+        <div id="loader-container">
+          <div class="stick"></div>
+          <div class="stick"></div>
+          <div class="stick"></div>
+          <div class="stick"></div>
+          <div class="stick"></div>
+          <div class="stick"></div>
+          <div class="loader-titel"><div class="neon-blue-active"> Loading...</div></div>
+        </div>
+    </div>
+    <!-- LOADER -->
+  <div >
+    <div class="logo logo1">
+    <div class="main" id="sup">
+        <a href="#" class="neon orange" style="font-size: 150px;">T</a><a href="#" class="neon green"><span style="font-size: 150px;">e</span></a><a href="#" class="neon violet" style="font-size: 150px;">ch</a><a href="#" class="neon yellow" style="font-size: 150px;"><span>no</span></a><a href="#" class="neon blue" style="font-size: 150px;">V<span>I</span>T</a>
+        <br>
+        <a onclick="smoothScroll(document.getElementById('sdown'))" href="#" class="border1 neon blue" style="font-size: 80px; ">
+        <span class="glyphicon glyphicon-hand-down" style="font-size: 80px; "></span>
+        </a>
+         </div>
+    </div>
+    <div class="stable">
+      <table id="sdown" class="stable" width="100%" height="100%"  border="0" cellspacing="10">
+  <tbody>
+    <tr>
+      <td>
+      <img src="images/logo/qubit.png" alt="" height="150"/>
+      <h1 class="stitle neon blue"><a  href="qubit/index.html">Qubit</a></h1>
+      <p class="stext"></p>
+      </td>
+      <td>
+      <img src="images/logo/connectivitiee.png" alt="" height="150"/>
+      <h1 class="stitle neon blue"><a  href="connectivitee/index.html" onclick="return false">Connectivitee</a></h1>
+      <p class="stext"></p>
+      </td>
+      <td>
+      <img src="images/logo/diseno.png" alt="" height="150"/>
+      <h1 class="stitle neon orange"><a  href="diseno/index.html" onclick="return false">Diseno</a></h1>
+      <p class="stext"></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <img src="images/logo/glitz.png" height="150" alt=""/>
+      <h1 class="stitle neon green"><a  href="glitz/index.html" onclick="return false">Glitz</a></h1>
+      <p class="stext"></p>
+      </td>
+      <td>
+      <img src="images/logo/taikuun.png" height="150" alt=""/>
+      <h1 class="stitle neon violet"><a  href="taikuun/index.html" onclick="return false">Taikuun</a></h1>
+      <p class="stext"></p>
+      </td>
+      <td>
+      <img src="images/logo/vitness.png"  height="150" alt=""/>
+      <h1 class="stitle neon red"><a  href="vitness/index.html" onclick="return false">VITness</a></h1>
+      <p class="stext"></p>
+      </td>
+    </tr>
+    </tbody>
+</table>
+</div>
+<center>
+<div class="logo">
+    <div class="main">
+<a onclick="smoothScroll(document.getElementById('sup'))" href="#" class="border1 neon blue" style="font-size: 80px; ">
+        <span class="glyphicon glyphicon-hand-up" style="font-size: 80px; "></span>
+        </a></div></div></center>
+  <footer>
+    <nav class="navbar navbar-inverse navbar">
+        <div class="container-fluid">
+          <div class="navbar-header">
+           
+            <a class="navbar-brand" href="#"><span class="neon red">technoVIT</span></a>
+          </div>
+          
+            <div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="aboutus/index.html"><span class="neon blue">About Us</span></a></li>
+              <li><a href="patrons/index.html"><span class="neon green">Patrons</span></a></li>
+              <li><a href="sponsors/index.html"><span class="neon violet">Sponsors'16</span></a></li>
+            </ul>
+            </div> 
+          
+        </div>
+      </nav>
+      <script src="../js/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      
+    
+    <script src="js/global.js"></script>
+    
+    
+  </footer>
+</body>
+
+</html>
